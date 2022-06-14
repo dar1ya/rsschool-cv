@@ -3,28 +3,55 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Darya Pavlovska</title>
+  <title>cv</title>
+  
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Joan&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <section>
-      <header>
-        <h1>Darya Pavlovska</h1>
-        <p>Front-end web developer</p>
+    
+      <header>    
+        <div class="container header-container">
+          <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+              <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+              <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+              <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+              <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+              <li class="nav-item"><a href="#interests" class="nav-link">Interests</a></li>
+              <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            </ul>
+          </nav>       
+        </div>
       </header>
-      <section>
-        <h2>Contact</h2>
-        <p>tel              +380966168831</p>
-        <p>e-mail           dar1ya.point@gmail.com</p>
-        <p>originaly from   Kryvyi Rig, Ukraine</p>
-        <p>current location Greifswald, Germany</p>
+      <main class="main-container">
+        <div class="container main-container">
+        <section  class="section section-maininfo" id="maininfo">
+          <img class="profile" src="./assets/img/profile.jpg" alt="my photo">
+          <div class="container">
+          <h1 class="section-title">Darya Pavlovska</h1>
+          <p>Front-end web developer</p>
+        </div>
+        </section>
+      <section  class="section" id="contacts">
+        <h2 class="section-title">Contacts</h2>
+        <p><span>tel</span>              +380966168831</p>
+        <p><span>e-mail</span>           dar1ya.point@gmail.com</p>
+        <p><span>originaly from</span>   Kryvyi Rig, Ukraine</p>
+        <p><span>current location</span> Greifswald, Germany</p>
       </section>
-      <section>
-        <h2>Summary</h2>
+      <section  class="section" id="summary">
+        <h2 class="section-title">Summary</h2>
         <p>Junior front-end developer higly interested in leveraging skills in creating awesome apps.</p>
-      <section>  
-      <section>
-        <h2>Work experience</h2>
+      </section>  
+      <section  class="section" id="experience">
+        <h2 class="section-title">Work experience</h2>
         <p>*Mar 2021 - Present*
             **Project manager (Administrator), FOP**
              - planning work team, 
@@ -46,9 +73,9 @@
             
              *Aug 2014 - Aug 2017*
              **Information Technology teacher in IT-science profile classes, school in Kryvyi Rig**</p>
-      <section> 
-      <section>
-        <h2>Education</h2>
+        </section> 
+      <section  class="section" id="education">
+        <h2 class="section-title">Education</h2>
         <p>**Front-end development**
             RS School
             *Mar 2022 – Present*
@@ -58,30 +85,42 @@
             **Master's degree, Information Technology**
             Kryvyi Rig National University
             *Sep 2009 – Jul 2014*</p>
-      <section> 
-      <section>
-        <h2>Languages</h2>
-        <p> - *Ukrainian*(**native**)
-            - *English*(**B2**)
-            - *Polish*(**A1**)</p>
-      <section> 
-      <section>
-        <h2>Interests</h2>
-        <p>* playing piano
-            * drawing
-            * reading
-            * travelling</p>
-      <section> 
-      <section>
-        <h2>Skills</h2>
-        <p> - GIT
-            - HTML/CSS
-            - SCSS, SASS, LESS
-            - JavaScript
-            - React, Redux, TypeScript
-            - Node.js
-            - SQL</p>
-      <section>  
+        </section> 
+      <section  class="section" id="languages">
+        <h2 class="section-title">Languages</h2>
+        <ul>
+          <li>Ukrainian (native)</li>
+          <li>English (B2)</li>
+          <li>Polish (A1)</li>
+          <li>Deutsch (A1)</li>
+        </ul>
+        </section> 
+      <section  class="section" id="interests">
+        <h2 class="section-title">Interests</h2>
+        <ul>
+          <li>playing piano</li>
+          <li>drawing</li>
+          <li>reading</li>
+          <li>travelling</li>
+        </ul>
+        </section> 
+      <section  class="section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <ul>
+          <li>GIT</li>
+          <li>HTML/CSS</li>
+          <li>SCSS, SASS, LESS</li>
+          <li>JavaScript</li>
+          <li>React, Redux, TypeScript</li>
+          <li>Node.js</li>
+          <li>SQL</li>
+        </ul>
+        </section>  
+      </div>
+      </main>
+      <footer>
+
+      </footer>
 </body>
 
 </html>
